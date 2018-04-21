@@ -1,0 +1,17 @@
+{% extends "page.html" %}
+{% load staticfiles %}
+
+{% block css %}
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,700,300italic">
+  <link rel="stylesheet" href="{% static 'site.css' %}" />
+
+  <script src="https://use.fontawesome.com/6f36bc1d15.js"></script>
+{% endblock %}
+
+{% block title %}
+  <%= title %>
+{% endblock %}
+
+{% block header %}
+  {% include "components/header.html" %}
+{% endblock %}

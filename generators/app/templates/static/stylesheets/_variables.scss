@@ -1,0 +1,25 @@
+$white: #ffffff;
+$black: rgba( 0, 0, 0, .87 );
+$link_color: rgb(19, 41, 255);
+$link_hover: darken( $link_color, 15 );
+$link_decoration: none;
+$background_color: $white;
+$font_color: $black;
+$font_family: "Roboto", Arial;
+$font_size: 14px;
+
+// APP COLORS
+$primary: #12358b;
+$primary_color: $white;
+$primary_link_color: $white;
+$secondary: #388653;
+$secondary_color: $white;
+$secondary_link_color: $white;
+$warn: #a31212;
+$warn_color: $white;
+$warn_link_color: $white;
+
+$pad_small: 5px;
+$pad_medium: 10px;
+$pad_large: 15px;
+$pad_xlarge: 25px;

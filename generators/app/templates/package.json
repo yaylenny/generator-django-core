@@ -1,0 +1,15 @@
+{
+  "name": "app-core",
+  "version": "1.0.0",
+  "description": "Base templates and views for a django site with a preclusion for Vue.js application",
+  "scripts": {
+    "stylewatch": "sass --watch ./static/stylesheets:./static"
+  },
+  "keywords": [],
+  "author": "lenny",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "material-colors-scss": "^1.0.0"
+  }
+}

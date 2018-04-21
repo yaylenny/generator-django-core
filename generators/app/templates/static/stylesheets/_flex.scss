@@ -1,0 +1,26 @@
+
+// FLEXBOX BASE CLASSES
+
+.x-flex, .x-flex-1, .x1{ flex: 1; }
+.x-flex-2, .x2{ flex: 2; }
+.x-flex-3, .x3{ flex: 3; }
+.x-flex-4, .x4{ flex: 4; }
+.x-flex-5, .x5{ flex: 5; }
+.x-no, .x-0, .x0{ flex: none!important; }
+.x-row, .x-col, .xr, .xc{ display: flex; }
+.x-row, .xr{ flex-direction: row; }
+.x-col, .xc{ flex-direction: column; }
+.x-align-start, .xas{ align-items: flex-start; }
+.x-align-center, .xac{ align-items: center; }
+.x-align-end, .xae{ align-items: flex-end; }
+.x-justify-start, .xjs{ justify-content: flex-start; }
+.x-justify-end, .xje{ justify-content: flex-end; }
+.x-justify-center, .xjc { justify-content: center; }
+.x-centered{
+  @extend .x-col;
+  @extend .x-justify-center;
+  @extend .x-align-center;
+}
+.x-layout{
+
+}

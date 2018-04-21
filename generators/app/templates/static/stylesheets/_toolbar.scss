@@ -1,0 +1,18 @@
+.toolbar{
+  @extend .theme-secondary;
+  @extend .x-row;
+  @extend .x-align-center;
+  @extend .wrap-medium;
+  color: $secondary_color;
+  .toolbar-item, .item{
+    @extend .wrap-small;
+    @extend .x-row;
+    @extend .x-align-center;
+    margin: 0 1em;
+    a{
+      display: block;
+      flex: 1;
+      color: $secondary_link_color;
+    }
+  }
+}

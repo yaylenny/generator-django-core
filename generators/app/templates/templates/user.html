@@ -1,0 +1,23 @@
+{% extends 'main.html' %}
+{% load staticfiles %}
+
+{% block css %}
+{{block.super}}
+
+<!-- VUE MATERIAL -->
+<link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+<!-- /VUE MATERIAL -->
+{% endblock %}
+
+{% block javascript %}
+<!-- VUE APPLICATION FILE -->
+<!-- <script src="{% static 'VueDirectory/dist/VueDirectory.js' %}"></script> -->
+{% endblock %}
+
+{% block body %}
+
+<!-- Be sure to change the <elementID> variable in you vue application -->
+<div id="application" class="site-wrapper">
+  <i class="fa fa-spin fa-gear"></i>
+</div>
+{% endblock %}

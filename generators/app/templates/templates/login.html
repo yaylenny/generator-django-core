@@ -1,0 +1,45 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<div class="container">
+  <div class="columns is-centered">
+    <div class="column is-half">
+      <div class="hero">
+        <div class="hero-body">
+          <h3 class="title">Login</h3>
+        </div>
+      </div>
+      <div class="has-text-centered">
+        <form method="post" action="">
+          {% csrf_token %}
+          <div class="field">
+            <div class="control">
+              <input class="input"
+                type="text"
+                name="username"
+                placeholder="Username"
+                autofocus
+                required
+                id="id_username" maxlength="254">
+            </div>
+          </div>
+          <div class="field">
+            <div class="control">
+              <input type="password" class="input" name="password" required="" id="id_password"
+                placeholder="PasSwoRd">
+            </div>
+          </div>
+          <div class="field is-grouped is-grouped-centered">
+            <div class="control">
+              <button class="button is-success" type="submi">Login</button>
+            </div>
+            <div class="control">
+              <button class="button" disabled>Register</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

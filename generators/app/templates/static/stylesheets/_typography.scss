@@ -1,0 +1,45 @@
+
+body{
+  font-size: $font_size;
+  color: $font_color;
+  background-color: $background_color;
+  font-family: $font_family;
+}
+a{
+  color: $link_color;
+  &, &:hover, &:link, &:active{
+    text-decoration: $link_decoration;
+  }
+  &:hover{
+    color: $link_hover;
+  }
+}
+
+h1, h2, h3, h4, h5, h6{
+
+}
+h1{
+  font-size: $font_size * 2.5;
+}
+h2{
+  font-size: $font_size * 2;
+}
+h3{
+  font-size: $font_size * 1.65;
+}
+h4{
+  font-size: $font_size * 1.25;
+}
+h5{
+  font-size: $font_size * 1.05;
+}
+h6{
+  font-size: $font_size * .85;
+}
+p{
+  margin: 0 0 1em 0;
+  line-height: 1.25em;
+}
+.pre{
+  white-space: pre-wrap;
+}
